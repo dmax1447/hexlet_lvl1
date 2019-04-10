@@ -1,5 +1,7 @@
 
 # project "hexlet-1vl-s474"
+for hexlet projects level 1
+author: max dragaytsev
 
 
 [![Code Climate](https://codeclimate.com/github/dmax1447/project-lvl1-s474/badges/gpa.svg)](https://codeclimate.com/github/hexlet-boilerplates/javascript-package)
@@ -17,4 +19,9 @@ $ make install
 
 ```sh
 $ make test
+```
+
+## Install packet from NPM
+```sh
+$ npm install -g hexlet-1vl-s474
 ```
