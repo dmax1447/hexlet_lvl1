@@ -5,8 +5,8 @@
   "main": "index.js",
   "bin": {
     "brain-games": "dist/bin/brain-games.js"
-   },
-   "files": [
+  },
+  "files": [
     "dist"
   ],
   "scripts": {
@@ -21,6 +21,7 @@
     "@babel/core": "^7.4.3",
     "@babel/node": "^7.2.2",
     "@babel/plugin-proposal-pipeline-operator": "^7.3.2",
-    "@babel/preset-env": "^7.4.3"
+    "@babel/preset-env": "^7.4.3",
+    "readline-sync": "^1.4.9"
   }
 }
