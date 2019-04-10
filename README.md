@@ -9,18 +9,6 @@ author: max dragaytsev
 
 <!-- [![Build Status](https://travis-ci.org/hexlet-boilerplates/nodejs-package.svg?branch=master)](https://travis-ci.org/hexlet-boilerplates/nodejs-package) -->
 
-## Setup
-
-```sh
-$ make install
-```
-
-## Run tests
-
-```sh
-$ make test
-```
-
 ## Install packet from NPM
 ```sh
 $ npm install -g hexlet-1vl-s474
