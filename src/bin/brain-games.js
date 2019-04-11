@@ -1,4 +1,4 @@
 #!/usr/bin/env node
-import talk from '..';
+import { meetUser } from '..';
 
-talk();
+meetUser();
