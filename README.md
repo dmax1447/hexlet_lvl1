@@ -4,8 +4,8 @@ for hexlet projects level 1
 author: max dragaytsev
 
 
-[![Code Climate](https://codeclimate.com/github/dmax1447/project-lvl1-s474/badges/gpa.svg)](https://codeclimate.com/github/hexlet-boilerplates/javascript-package)
-[![Issue Count](https://codeclimate.com/github/dmax1447/project-lvl1-s474/badges/issue_count.svg)](https://codeclimate.com/github/hexlet-boilerplates/javascript-package)
+[![Maintainability](https://api.codeclimate.com/v1/badges/cc7345c0024133c7c311/maintainability)](https://codeclimate.com/github/dmax1447/project-lvl1-s474/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/cc7345c0024133c7c311/test_coverage)](https://codeclimate.com/github/dmax1447/project-lvl1-s474/test_coverage)
 [![Build Status](https://travis-ci.org/dmax1447/project-lvl1-s474.svg?branch=master)](https://travis-ci.org/dmax1447/project-lvl1-s474)
 
 ## Install packet from NPM
