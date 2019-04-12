@@ -7,6 +7,9 @@
 
 - запустить с помощью бабеля и ноды из исходника:
 	make start (выполняет: npx babel-node src/bin/brain-games.js)
+    npx babel-node src/bin/brain-games.js
+    npx babel-node src/bin/brain-even.js
+    npx babel-node src/bin/brain-calc.js
 
 - запустить скомпилированный бин
     npm dist/bin/имя_бина.js
