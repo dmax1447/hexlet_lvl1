@@ -1,0 +1,27 @@
+
+- проверить линтером
+    make lint
+
+- скомпилировать build es5 в dist
+    npm run-script build
+
+- запустить с помощью бабеля и ноды из исходника:
+	make start (выполняет: npx babel-node src/bin/brain-games.js)
+
+- запустить скомпилированный бин
+    npm dist/bin/имя_бина.js
+
+- опубликовать в NPM 
+    сменить версию проекта в package.json
+    make publish
+
+- установить пакет глобально (чз терминал):
+    sudo npm install -g hexlet-1vl-s474
+
+- запустить после глобальной установки (набрать в терминале)
+    brain-games
+    brain-even
+
+- аскисинема
+    asciinema rec stage4.cast
+    asciinema upload stage4.cast
