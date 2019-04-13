@@ -27,6 +27,15 @@ function makeArithmeticProgression(startNum) {
   return progression;
 }
 
+function isPrime(num) {
+  for (let i = 2; i < num; i += 1) {
+    if (num % i === 0) {
+      return false;
+    }
+  }
+  return true;
+}
+
 export {
-  getRandomInRange, isEven, findDivisors, makeArithmeticProgression,
+  getRandomInRange, isEven, findDivisors, makeArithmeticProgression, isPrime,
 };
