@@ -15,7 +15,6 @@ function gcdGame() {
     commonDivisors = divisorsB.filter(element => (divisorsA.indexOf(element) !== -1));
   }
 
-  // eslint-disable-next-line prefer-destructuring
   roundData.answer = `${commonDivisors[0]}`;
   return roundData;
 }
