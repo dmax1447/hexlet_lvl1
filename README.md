@@ -16,6 +16,8 @@ author: max dragaytsev
 [![asciicast](https://asciinema.org/a/HpWMzhImq2bvr9LxRnVIKrroJ.svg)](https://asciinema.org/a/HpWMzhImq2bvr9LxRnVIKrroJ)
 ## How to play progression
 [![asciicast](https://asciinema.org/a/XCXmvHlugBRNcxYv7Kn5nCEqC.svg)](https://asciinema.org/a/XCXmvHlugBRNcxYv7Kn5nCEqC)
+## How to play prime
+[![asciicast](https://asciinema.org/a/29NZPC0XCRxLpNbxYIASQNQIb.svg)](https://asciinema.org/a/29NZPC0XCRxLpNbxYIASQNQIb)
 ## Install packet from NPM
 ```sh
 $ npm install -g hexlet-1vl-s474
