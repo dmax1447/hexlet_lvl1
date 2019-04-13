@@ -17,4 +17,16 @@ function findDivisors(num) {
   return divisors;
 }
 
-export { getRandomInRange, isEven, findDivisors };
+function makeArithmeticProgression(startNum) {
+  const progression = [];
+  const PROGRESSION_STEP = 3;
+  progression[0] = startNum;
+  for (let i = 1; i < 10; i += 1) {
+    progression[i] = progression[i - 1] + PROGRESSION_STEP;
+  }
+  return progression;
+}
+
+export {
+  getRandomInRange, isEven, findDivisors, makeArithmeticProgression,
+};
