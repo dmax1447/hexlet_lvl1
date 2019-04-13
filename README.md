@@ -14,6 +14,8 @@ author: max dragaytsev
 [![asciicast](https://asciinema.org/a/UTEVI5kg3uaWDgn15aDg9NEMI.svg)](https://asciinema.org/a/UTEVI5kg3uaWDgn15aDg9NEMI)
 ## How to play great common divisor
 [![asciicast](https://asciinema.org/a/HpWMzhImq2bvr9LxRnVIKrroJ.svg)](https://asciinema.org/a/HpWMzhImq2bvr9LxRnVIKrroJ)
+## How to play progression
+[![asciicast](https://asciinema.org/a/XCXmvHlugBRNcxYv7Kn5nCEqC.svg)](https://asciinema.org/a/XCXmvHlugBRNcxYv7Kn5nCEqC)
 ## Install packet from NPM
 ```sh
 $ npm install -g hexlet-1vl-s474
