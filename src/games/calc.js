@@ -1,32 +1,28 @@
-import readlineSync from 'readline-sync';
+import { getRandomInRange } from './utils';
 
-// функция раунда игры в калькулятор
+const operationVariants = ['+', '-', '*'];
 
 function calcGame() {
-  const roundData = {
-    correctAnswer: null,
-    userAnswer: null,
-  };
-  const operationVariants = ['+', '-', '*'];
-  const arg1 = Math.round(Math.random() * 10);
-  const arg2 = Math.round(Math.random() * 10);
-  const operation = operationVariants[Math.round(Math.random() * 2)];
-  console.log(`Question: ${arg1} ${operation} ${arg2}`);
+  const roundData = {};
+  const arg1 = getRandomInRange(0, 10);
+  const arg2 = getRandomInRange(0, 10);
+  const operation = operationVariants[getRandomInRange(0, 2)];
+  roundData.question = `${arg1} ${operation} ${arg2}`;
   switch (operation) {
     case '+':
-      roundData.correctAnswer = arg1 + arg2;
+      roundData.answer = `${arg1 + arg2}`;
       break;
     case '-':
-      roundData.correctAnswer = arg1 - arg2;
+      roundData.answer = `${arg1 - arg2}`;
       break;
     case '*':
-      roundData.correctAnswer = arg1 * arg2;
+      roundData.answer = `${arg1 * arg2}`;
       break;
     default:
       break;
   }
-  roundData.userAnswer = parseInt(readlineSync.question('Your Answer: '), 10);
   return roundData;
 }
+calcGame.rules = 'What is the result of the expression?';
 
 export default calcGame;

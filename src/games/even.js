@@ -1,18 +1,11 @@
-import readlineSync from 'readline-sync';
-
-// функция раунда игры в чет-нечет
+import { getRandomInRange, isEven } from './utils';
 
 function evenGame() {
-  const roundData = {
-    correctAnswer: null,
-    userAnswer: null,
-  };
-  const isEven = num => (num % 2) === 0;
-  const question = Math.round(Math.random() * 15);
-  roundData.correctAnswer = isEven(question) ? 'yes' : 'no';
-  console.log(`Question: ${question}`);
-  roundData.userAnswer = readlineSync.question('Your answer: ');
+  const roundData = {};
+  roundData.question = getRandomInRange(0, 15);
+  roundData.answer = isEven(roundData.question) ? 'yes' : 'no';
   return roundData;
 }
+evenGame.rules = 'Answer "yes" if number even otherwise answer "no"';
 
 export default evenGame;
