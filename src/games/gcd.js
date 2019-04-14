@@ -1,5 +1,4 @@
 import { getRandomInRange } from './lib/utils';
-import playGame from './lib/engine';
 
 function findDivisors(num) {
   const divisors = [];
@@ -24,7 +23,7 @@ function findGreatCommonDivisor(numA, numB) {
   return commonDivisors[0];
 }
 
-function findGcdOfRandomNums() {
+function generateQuizGcd() {
   const roundData = {};
   const numA = getRandomInRange(1, 30);
   const numB = getRandomInRange(1, 30);
@@ -32,8 +31,5 @@ function findGcdOfRandomNums() {
   roundData.answer = `${findGreatCommonDivisor(numA, numB)}`;
   return roundData;
 }
-findGcdOfRandomNums.rules = 'Find the greatest common divisor of given numbers.';
 
-playGame(findGcdOfRandomNums);
-
-export default findGcdOfRandomNums;
+export default generateQuizGcd;

@@ -1,5 +1,4 @@
 import { getRandomInRange } from './lib/utils';
-import playGame from './lib/engine';
 
 const operationVariants = ['+', '-', '*'];
 
@@ -24,8 +23,5 @@ function calcRandomExpression() {
   }
   return roundData;
 }
-calcRandomExpression.rules = 'What is the result of the expression?';
-
-playGame(calcRandomExpression);
 
 export default calcRandomExpression;

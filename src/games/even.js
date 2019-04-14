@@ -1,5 +1,4 @@
 import { getRandomInRange } from './lib/utils';
-import playGame from './lib/engine';
 
 function isEven(num) {
   return (num % 2) === 0;
@@ -11,8 +10,5 @@ function guessIfItEvenNum() {
   roundData.answer = isEven(roundData.question) ? 'yes' : 'no';
   return roundData;
 }
-guessIfItEvenNum.rules = 'Answer "yes" if number even otherwise answer "no"';
-
-playGame(guessIfItEvenNum);
 
 export default guessIfItEvenNum;

@@ -1,4 +1,5 @@
 #!/usr/bin/env node
-import findGcdOfRandomNums from '../games/gcd';
+import playGame from '../games/lib/engine';
+import generateQuizGcd from '../games/gcd';
 
-findGcdOfRandomNums();
+playGame(generateQuizGcd, 'Find the greatest common divisor of given numbers.');
