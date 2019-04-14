@@ -14,7 +14,7 @@ function makeArithmeticProgression() {
 function findHiddenElementOfProgression() {
   const roundData = {};
   const progression = makeArithmeticProgression(10);
-  const randomElementIndex = getRandomInRange(0, 10);
+  const randomElementIndex = getRandomInRange(0, 9);
   roundData.answer = `${progression[randomElementIndex]}`;
   progression[randomElementIndex] = '..';
   roundData.question = progression.join(' ');
