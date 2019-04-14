@@ -1,5 +1,7 @@
-import { getRandomInRange } from '../lib/utils';
-import playGame from '../lib/engine';
+import { getRandomInRange } from '../utils';
+import playGame from '../engine';
+
+const gameTaskDescription = 'Find the greatest common divisor of given numbers.';
 
 function findDivisors(num) {
   const divisors = [];
@@ -34,7 +36,7 @@ function generateQuizGcd() {
 }
 
 function playGameGcd() {
-  playGame(generateQuizGcd, 'Find the greatest common divisor of given numbers.');
+  playGame(generateQuizGcd, gameTaskDescription);
 }
 
 export default playGameGcd;

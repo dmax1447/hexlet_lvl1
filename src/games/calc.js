@@ -1,6 +1,7 @@
-import { getRandomInRange } from '../lib/utils';
-import playGame from '../lib/engine';
+import { getRandomInRange } from '../utils';
+import playGame from '../engine';
 
+const gameTaskDescription = 'What is the result of the expression?';
 const operationVariants = ['+', '-', '*'];
 
 function generateQuizRandomExpression() {
@@ -26,7 +27,7 @@ function generateQuizRandomExpression() {
 }
 
 function calcRandomExpression() {
-  playGame(generateQuizRandomExpression, 'What is the result of the expression?');
+  playGame(generateQuizRandomExpression, gameTaskDescription);
 }
 
 export default calcRandomExpression;

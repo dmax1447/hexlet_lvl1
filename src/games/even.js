@@ -1,5 +1,7 @@
-import { getRandomInRange } from '../lib/utils';
-import playGame from '../lib/engine';
+import { getRandomInRange } from '../utils';
+import playGame from '../engine';
+
+const gameTaskDescription = 'Answer "yes" if number even otherwise answer "no"';
 
 function isEven(num) {
   return (num % 2) === 0;
@@ -13,7 +15,7 @@ function generateQuizIfItEvenNum() {
 }
 
 function guessIfItEvenNum() {
-  playGame(generateQuizIfItEvenNum, 'Answer "yes" if number even otherwise answer "no"');
+  playGame(generateQuizIfItEvenNum, gameTaskDescription);
 }
 
 export default guessIfItEvenNum;

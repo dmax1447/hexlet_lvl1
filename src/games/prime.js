@@ -1,5 +1,7 @@
-import { getRandomInRange } from '../lib/utils';
-import playGame from '../lib/engine';
+import { getRandomInRange } from '../utils';
+import playGame from '../engine';
+
+const gameTaskDescription = 'Answer "yes" if given number is prime. Otherwise answer "no"';
 
 function isPrime(num) {
   if (num < 2) {
@@ -20,8 +22,9 @@ function generateQuizPrimeGame() {
   return roundData;
 }
 
+
 function checkIfIsPrime() {
-  playGame(generateQuizPrimeGame, 'Answer "yes" if given number is prime. Otherwise answer "no"');
+  playGame(generateQuizPrimeGame, gameTaskDescription);
 }
 
 export default checkIfIsPrime;
