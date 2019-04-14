@@ -1,5 +1,18 @@
-import { getRandomInRange, isPrime } from './lib/utils';
+import { getRandomInRange } from './lib/utils';
 import playGame from './lib/engine';
+
+function isPrime(num) {
+  if (num < 2) {
+    return false;
+  }
+
+  for (let i = 2; i <= Math.round(num / 2); i += 1) {
+    if (num % i === 0) {
+      return false;
+    }
+  }
+  return true;
+}
 
 function checkIfIsPrime() {
   const roundData = {};

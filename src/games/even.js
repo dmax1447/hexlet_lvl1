@@ -1,5 +1,9 @@
-import { getRandomInRange, isEven } from './lib/utils';
+import { getRandomInRange } from './lib/utils';
 import playGame from './lib/engine';
+
+function isEven(num) {
+  return (num % 2) === 0;
+}
 
 function guessIfItEvenNum() {
   const roundData = {};

@@ -1,5 +1,15 @@
-import { getRandomInRange, makeArithmeticProgression } from './lib/utils';
+import { getRandomInRange } from './lib/utils';
 import playGame from './lib/engine';
+
+function makeArithmeticProgression() {
+  const progression = [];
+  const progressionStep = getRandomInRange(1, 5);
+  const startNum = getRandomInRange(0, 20);
+  for (let i = 0; i < 10; i += 1) {
+    progression[i] = startNum + progressionStep * i;
+  }
+  return progression;
+}
 
 function findHiddenElementOfProgression() {
   const roundData = {};
