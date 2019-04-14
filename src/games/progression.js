@@ -1,4 +1,5 @@
-import { getRandomInRange } from './lib/utils';
+import { getRandomInRange } from '../lib/utils';
+import playGame from '../lib/engine';
 
 function makeArithmeticProgression() {
   const progression = [];
@@ -11,7 +12,7 @@ function makeArithmeticProgression() {
   return progression;
 }
 
-function findHiddenElementOfProgression() {
+function generateQuizProgressionGame() {
   const roundData = {};
   const progression = makeArithmeticProgression(10);
   const randomElementIndex = getRandomInRange(0, 9);
@@ -19,6 +20,10 @@ function findHiddenElementOfProgression() {
   progression[randomElementIndex] = '..';
   roundData.question = progression.join(' ');
   return roundData;
+}
+
+function findHiddenElementOfProgression() {
+  playGame(generateQuizProgressionGame, 'What number is missing in the progression?');
 }
 
 export default findHiddenElementOfProgression;
