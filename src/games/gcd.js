@@ -1,23 +1,17 @@
-import { getRandomInRange, findDivisors } from './utils';
+import { getRandomInRange, findGreatCommonDivisor } from './lib/utils';
+import playGame from './lib/engine';
 
-function gcdGame() {
+
+function findGcdOfRandomNums() {
   const roundData = {};
-  const numA = getRandomInRange(0, 25);
-  const numB = getRandomInRange(0, 25);
+  const numA = getRandomInRange(1, 30);
+  const numB = getRandomInRange(1, 30);
   roundData.question = `${numA} ${numB}`;
-  const divisorsA = findDivisors(numA);
-  const divisorsB = findDivisors(numB);
-  let commonDivisors;
-
-  if (divisorsA.length >= divisorsB.length) {
-    commonDivisors = divisorsA.filter(element => (divisorsB.indexOf(element) !== -1));
-  } else {
-    commonDivisors = divisorsB.filter(element => (divisorsA.indexOf(element) !== -1));
-  }
-
-  roundData.answer = `${commonDivisors[0]}`;
+  roundData.answer = `${findGreatCommonDivisor(numA, numB)}`;
   return roundData;
 }
-gcdGame.rules = 'Find the greatest common divisor of given numbers.';
+findGcdOfRandomNums.rules = 'Find the greatest common divisor of given numbers.';
 
-export default gcdGame;
+playGame(findGcdOfRandomNums);
+
+export default findGcdOfRandomNums;

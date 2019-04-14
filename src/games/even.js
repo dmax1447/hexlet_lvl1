@@ -1,11 +1,14 @@
-import { getRandomInRange, isEven } from './utils';
+import { getRandomInRange, isEven } from './lib/utils';
+import playGame from './lib/engine';
 
-function evenGame() {
+function guessIfItEvenNum() {
   const roundData = {};
   roundData.question = getRandomInRange(0, 15);
   roundData.answer = isEven(roundData.question) ? 'yes' : 'no';
   return roundData;
 }
-evenGame.rules = 'Answer "yes" if number even otherwise answer "no"';
+guessIfItEvenNum.rules = 'Answer "yes" if number even otherwise answer "no"';
 
-export default evenGame;
+playGame(guessIfItEvenNum);
+
+export default guessIfItEvenNum;

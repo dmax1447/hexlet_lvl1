@@ -1,11 +1,14 @@
-import { getRandomInRange, isPrime } from './utils';
+import { getRandomInRange, isPrime } from './lib/utils';
+import playGame from './lib/engine';
 
-function primeGame() {
+function checkIfIsPrime() {
   const roundData = {};
   roundData.question = getRandomInRange(0, 20);
   roundData.answer = isPrime(roundData.question) ? 'yes' : 'no';
   return roundData;
 }
-primeGame.rules = 'Answer "yes" if given number is prime. Otherwise answer "no"';
+checkIfIsPrime.rules = 'Answer "yes" if given number is prime. Otherwise answer "no"';
 
-export default primeGame;
+playGame(checkIfIsPrime);
+
+export default checkIfIsPrime;

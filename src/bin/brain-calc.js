@@ -1,5 +1,4 @@
 #!/usr/bin/env node
-import { playGame } from '..';
-import calcGame from '../games/calc';
+import calcRandomExpression from '../games/calc';
 
-playGame(calcGame);
+calcRandomExpression();

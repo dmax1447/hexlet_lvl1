@@ -1,5 +1,4 @@
 #!/usr/bin/env node
-import { playGame } from '..';
-import progressionGame from '../games/progression';
+import findHiddenElementOfProgression from '../games/progression';
 
-playGame(progressionGame);
+findHiddenElementOfProgression();
