@@ -1,10 +1,10 @@
 
-# project "Brain Games"
+# Project "Brain Games"
+[![Maintainability](https://api.codeclimate.com/v1/badges/cc7345c0024133c7c311/maintainability)](https://codeclimate.com/github/dmax1447/project-lvl1-s474/maintainability)
+[![Build Status](https://travis-ci.org/dmax1447/project-lvl1-s474.svg?branch=master)](https://travis-ci.org/dmax1447/project-lvl1-s474)
 for hexlet projects level 1
 
-[![Maintainability](https://api.codeclimate.com/v1/badges/cc7345c0024133c7c311/maintainability)](https://codeclimate.com/github/dmax1447/project-lvl1-s474/maintainability)
 
-[![Build Status](https://travis-ci.org/dmax1447/project-lvl1-s474.svg?branch=master)](https://travis-ci.org/dmax1447/project-lvl1-s474)
 
 set of console mini-games:
  "is number even?"
@@ -49,13 +49,13 @@ $ brain-prime
 ```
 
 Screencasts of game process:
-## even: 
+### even: 
 [![asciicast](https://asciinema.org/a/ABqXnR39sAJS23WGMubSmSovy.svg)](https://asciinema.org/a/ABqXnR39sAJS23WGMubSmSovy)
-## alculator: 
+### calculator: 
 [![asciicast](https://asciinema.org/a/UTEVI5kg3uaWDgn15aDg9NEMI.svg)](https://asciinema.org/a/UTEVI5kg3uaWDgn15aDg9NEMI)
-## great common divisor
+### great common divisor
 [![asciicast](https://asciinema.org/a/HpWMzhImq2bvr9LxRnVIKrroJ.svg)](https://asciinema.org/a/HpWMzhImq2bvr9LxRnVIKrroJ)
-## progression
+### progression
 [![asciicast](https://asciinema.org/a/XCXmvHlugBRNcxYv7Kn5nCEqC.svg)](https://asciinema.org/a/XCXmvHlugBRNcxYv7Kn5nCEqC)
-## prime
+### prime
 [![asciicast](https://asciinema.org/a/29NZPC0XCRxLpNbxYIASQNQIb.svg)](https://asciinema.org/a/29NZPC0XCRxLpNbxYIASQNQIb)
