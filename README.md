@@ -2,19 +2,19 @@
 # Project "Brain Games"
 [![Maintainability](https://api.codeclimate.com/v1/badges/cc7345c0024133c7c311/maintainability)](https://codeclimate.com/github/dmax1447/project-lvl1-s474/maintainability)
 [![Build Status](https://travis-ci.org/dmax1447/project-lvl1-s474.svg?branch=master)](https://travis-ci.org/dmax1447/project-lvl1-s474)
-for hexlet projects level 1
-
 
 
 set of console mini-games:
- "is number even?"
- "calculate random expression"
- "find great common divisor"
- "calculate hidden element of progression"
+ "is number even?", 
+ "calculate random expression", 
+ "find great common divisor", 
+ "calculate hidden element of progression", 
  "is number prime ?"
 
 
 author: max dragaytsev
+
+for hexlet projects level 1
 
 ## Install packet from NPM
 ```sh
