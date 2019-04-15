@@ -1,4 +1,4 @@
 #!/usr/bin/env node
-import guessIfItEvenNum from '../games/even';
+import launchGameEven from '../games/even';
 
-guessIfItEvenNum();
+launchGameEven();

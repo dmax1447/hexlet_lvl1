@@ -35,8 +35,8 @@ function generateQuizGcd() {
   return roundData;
 }
 
-function playGameGcd() {
+function launchGameGcd() {
   playGame(generateQuizGcd, gameTaskDescription);
 }
 
-export default playGameGcd;
+export default launchGameGcd;

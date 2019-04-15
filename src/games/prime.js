@@ -15,7 +15,7 @@ function isPrime(num) {
   return true;
 }
 
-function generateQuizPrimeGame() {
+function generateQuizPrime() {
   const roundData = {};
   roundData.question = getRandomInRange(0, 20);
   roundData.answer = isPrime(roundData.question) ? 'yes' : 'no';
@@ -23,8 +23,8 @@ function generateQuizPrimeGame() {
 }
 
 
-function checkIfIsPrime() {
-  playGame(generateQuizPrimeGame, gameTaskDescription);
+function launchGamePrime() {
+  playGame(generateQuizPrime, gameTaskDescription);
 }
 
-export default checkIfIsPrime;
+export default launchGamePrime;

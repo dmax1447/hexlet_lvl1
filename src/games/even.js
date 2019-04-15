@@ -7,15 +7,15 @@ function isEven(num) {
   return (num % 2) === 0;
 }
 
-function generateQuizIfItEvenNum() {
+function generateQuizEven() {
   const roundData = {};
   roundData.question = getRandomInRange(0, 15);
   roundData.answer = isEven(roundData.question) ? 'yes' : 'no';
   return roundData;
 }
 
-function guessIfItEvenNum() {
-  playGame(generateQuizIfItEvenNum, gameTaskDescription);
+function launchGameEven() {
+  playGame(generateQuizEven, gameTaskDescription);
 }
 
-export default guessIfItEvenNum;
+export default launchGameEven;

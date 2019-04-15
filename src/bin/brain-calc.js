@@ -1,4 +1,4 @@
 #!/usr/bin/env node
-import calcRandomExpression from '../games/calc';
+import launchGameRandomExpression from '../games/calc';
 
-calcRandomExpression();
+launchGameRandomExpression();

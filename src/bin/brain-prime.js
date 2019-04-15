@@ -1,4 +1,4 @@
 #!/usr/bin/env node
-import checkIfIsPrime from '../games/prime';
+import launchGamePrime from '../games/prime';
 
-checkIfIsPrime();
+launchGamePrime();

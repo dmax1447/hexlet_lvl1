@@ -1,4 +1,4 @@
 #!/usr/bin/env node
-import findHiddenElementOfProgression from '../games/progression';
+import launchGameProgression from '../games/progression';
 
-findHiddenElementOfProgression();
+launchGameProgression();

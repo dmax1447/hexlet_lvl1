@@ -26,8 +26,8 @@ function generateQuizRandomExpression() {
   return roundData;
 }
 
-function calcRandomExpression() {
+function launchGameCalc() {
   playGame(generateQuizRandomExpression, gameTaskDescription);
 }
 
-export default calcRandomExpression;
+export default launchGameCalc;
