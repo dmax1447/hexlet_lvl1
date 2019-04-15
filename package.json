@@ -1,6 +1,6 @@
 {
   "name": "hexlet-1vl-s474",
-  "version": "1.8.6",
+  "version": "1.8.7",
   "description": "dmax1447 test project hexlet lev1",
   "bin": {
     "brain-even": "dist/bin/brain-even.js",
